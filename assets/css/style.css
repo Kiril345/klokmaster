@@ -12090,8 +12090,11 @@ a, input {
 }
 
 body {
-    background: url(/assets/i/pageglare.png) no-repeat left bottom, -webkit-linear-gradient(top, rgba(0, 0, 0, 0.13) 0, rgba(109, 109, 109, 0.05) 450px, rgba(255, 255, 255, 0.28) 1050px) no-repeat, url(/assets/i/page.png), -webkit-linear-gradient(top, #333333 0, #808080 450px, #E5E5E5 1050px) no-repeat;
-    background-attachment: fixed, fixed, fixed, fixed !important;
+    font-family: -apple-system,Roboto,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+    font-weight: 500;
+    color: #212529;
+    text-align: left;
+    background: rgba(166, 166, 166, 0.85);
     margin: 0 auto;
     position: relative;
     width: 100%;
@@ -12119,7 +12122,7 @@ button {
 header {
     padding-top: .5rem;
     padding-bottom: 1.2rem;
-    background-color: rgba(16, 16, 16, 0.5);
+    background-color: rgba(48, 48, 48, 0.9);
 }
 
 .logotype {
@@ -12181,6 +12184,8 @@ nav ul.list-inline a, nav ul.list-inline a:hover {
     text-transform: uppercase;
     padding: 20px 10px;
     display: inline-block;
+    margin-left: -3px;
+    margin-right: -3px;
 }
 
 nav ul {
@@ -12520,6 +12525,7 @@ section#copiright {
 
 .modal-content {
     height: 100%;
+    background: #c3c3c3;
 }
 
 .modal-body form {
